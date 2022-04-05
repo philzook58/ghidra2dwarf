@@ -31,6 +31,10 @@ Inside gdb now you can use:
 
 ![](./img/script-directories.png)
 
+Phil:
+- You should actually pick the `src` directory for your script path
+- Go into `/lib` and run `./fetch_libs_and_build.sh`. Copy libdwarf.jar into src
+
 ## Run
 
 Run `ghidra2dwarf.py` inside the script manager:
